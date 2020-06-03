@@ -1,0 +1,12 @@
+instructions for running on Mac.
+
+1.download file from Github by clicking green download button and choosing to download zip
+2.move downloaded folder to desktop
+3.go to search bar and search for "Terminal" and open up a window
+4. type "cd Desktop" and hit enter
+5. type ls and hit enter. at this point all your folders and files from your desktop should show up in the terminal window
+6. type "cd -Name of folder you downloaded-" for me the folde was named StreamToDonateAutoPlayer-master so i would type "cd StreamToDonateAutoPlayer-master"
+7. type "bash AutoPlayer.sh" this should launch the app and youre good to go
+8. if it says you don't have permission, type "sudo bash AutoPlayer.sh". it will warn you about sudo
+9. Sudo just means you give your computer permission to do anything. type in your password to log in to your computer and hit enter and it should work
+NOTE - when you type in your password on the sudo prompt, you will not see any characters pop up on the screen. this is normal
